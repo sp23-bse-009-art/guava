@@ -48,6 +48,8 @@
     <url>https://github.com/google/guava/actions</url>
   </ciManagement>
   <properties>
+
+    <sonar.organization>sp23-bse-009-art</sonar.organization>
     <!--
     When building Guava, you can pass (e.g.) `-Dsurefire.toolchain.version=21` to change which version to run tests under.
     You may find that you need to use Java 11+ to *build* Guava, but it continues to work under Java 8, and you can run tests to verify that, as we do.
